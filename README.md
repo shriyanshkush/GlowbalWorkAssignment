@@ -1,36 +1,38 @@
-    # Flutter Movie Search App
-    
-    A modern, responsive Flutter application for searching movies and TV shows using the TMDb API. Built with BLoC state management and Material Design principles.
-    
-    ## Features
-    
-    - **Movie & TV Show Search**: Real-time search with debouncing
-    - **Responsive Design**: Optimized for phones and tablets (portrait & landscape)
-    - **BLoC State Management**: Clean architecture with flutter_bloc
-    - **Detailed Movie View**: Rich movie information with high-quality images
-    - **Error Handling**: Comprehensive error states with retry functionality
-    - **Image Caching**: Efficient network image loading and caching
-    - **Modern UI**: Material Design 3 with smooth animations
-    
-    ## Screenshots
-    
-    | Search Screen | Movie Details | Responsive Grid |
-    |---------------|---------------|-----------------|
-    | *Coming soon* | *Coming soon* | *Coming soon*   |
-    
-    ## Getting Started
-    
-    ### Prerequisites
-    
-    - Flutter SDK (>=3.0.0)
-    - Dart SDK (>=3.0.0)
-    - Android Studio / VS Code
-    - TMDb API Key
-    
-    ### Installation
-    
-    1. **Clone the repository**
-    ```bash
+# Flutter Movie Search App
+
+A modern, responsive Flutter application for searching movies and TV shows using the TMDb API. Built with BLoC state management and Material Design principles.
+
+## Features
+
+*   **Movie & TV Show Search**: Real-time search with debouncing
+*   **Responsive Design**: Optimized for phones and tablets (portrait & landscape)
+*   **BLoC State Management**: Clean architecture with flutter\_bloc
+*   **Detailed Movie View**: Rich movie information with high-quality images
+*   **Error Handling**: Comprehensive error states with retry functionality
+*   **Image Caching**: Efficient network image loading and caching
+*   **Modern UI**: Material Design 3 with smooth animations
+
+## Screenshots
+
+| Search Screen | Movie Details | Responsive Grid |
+| --- | --- | --- |
+| Coming soon | Coming soon | Coming soon |
+
+## Getting Started
+
+### Prerequisites
+
+*   Flutter SDK (>=3.0.0)
+*   Dart SDK (>=3.0.0)
+*   Android Studio / VS Code
+*   TMDb API Key
+
+### Installation
+
+1.  **Clone the repository**
+
+bash
+
        git clone https://github.com/yourusername/movie_search_app.git
        cd movie_search_app
 
@@ -41,12 +43,16 @@ bash
        flutter pub get
 
 3.  **Get TMDb API Key**
+    
     *   Visit [TMDb API](https://www.themoviedb.org/settings/api)
     *   Create an account and request an API key (free)
     *   Copy your API key
+    
 4.  **Configure API Key**
+    
     *   Open `lib/services/movie_service.dart`
     *   Replace `YOUR_TMDB_API_KEY_HERE` with your actual API key:
+    
 
 dart
 
@@ -158,17 +164,23 @@ dart
 ### Manual Testing
 
 1.  **Search Functionality**
+    
     *   Search for "Avengers", "Batman", "Star Wars"
     *   Test empty search results
     *   Verify debouncing behavior
+    
 2.  **Responsive Design**
+    
     *   Test on different screen sizes
     *   Rotate device to test landscape mode
     *   Check tablet layouts
+    
 3.  **Error Handling**
+    
     *   Turn off internet connection
     *   Use invalid API key
     *   Test retry functionality
+    
 
 ### Running Tests
 
