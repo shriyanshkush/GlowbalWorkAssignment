@@ -14,9 +14,8 @@ A modern, responsive Flutter application for searching movies and TV shows using
 
 ## Demo Video
 
-| Search Screen | Movie Details | Responsive Grid |
-| --- | --- | --- |
-| [![Watch the video](assets/videos/video_thumbnail.png)](assets/videos/video1.mp4) | Coming soon | Coming soon |
+[![Watch the video](assets/videos/video_thumbnail.png)](https://drive.google.com/file/d/1sqqQvm29Gu-Wa2r4SFY4u2TNepW0F7Kc/view?usp=sharing)
+
 
 
 ## Getting Started
