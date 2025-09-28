@@ -12,11 +12,12 @@ A modern, responsive Flutter application for searching movies and TV shows using
 *   **Image Caching**: Efficient network image loading and caching
 *   **Modern UI**: Material Design 3 with smooth animations
 
-## Screenshots
+## Demo Video
 
 | Search Screen | Movie Details | Responsive Grid |
 | --- | --- | --- |
-| Coming soon | Coming soon | Coming soon |
+| [![Watch the video](assets/videos/video_thumbnail.png)](assets/videos/video1.mp4) | Coming soon | Coming soon |
+
 
 ## Getting Started
 
