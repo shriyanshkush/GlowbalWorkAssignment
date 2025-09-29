@@ -31,8 +31,8 @@ A modern, responsive Flutter application for searching movies and TV shows using
 
 1.  **Clone the repository**
     
-        git clone https://github.com/yourusername/movie_search_app.git
-        cd movie_search_app
+        git clone https://github.com/shriyanshkush/GlowbalWorkAssignment.git
+        cd GlowbalWorkAssignment
         
     
 2.  **Install dependencies**
